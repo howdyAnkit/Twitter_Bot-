@@ -44,7 +44,8 @@ class TwitterBot:
 
 email_input=input("please enter the email")
 password_input=input("please enter the password")
+hashtag_input=input("please enter the hashtag")
 
 ap = TwitterBot(email_input,password_input)
 ap.login()
-ap.like_tweet('webdevlopment')
+ap.like_tweet(hashtag_input)
